@@ -1,0 +1,8 @@
+﻿ALTER TABLE Products
+ADD Manufacturer NVARCHAR(500);
+ALTER TABLE Products
+DROP COLUMN Manufacturer;
+ALTER TABLE Products
+ADD UPC NVARCHAR(12);
+ALTER TABLE Products
+DROP COLUMN UPC;
